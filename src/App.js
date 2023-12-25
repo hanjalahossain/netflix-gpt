@@ -1,11 +1,10 @@
- import './App.css';
+import Body from './components/Body';
 
-function App(){
+const App = () => {
   return (
-    <div className="text-3xl font-bold text-green-800">
-      <h1>hello</h1>
-    </div>
-  );
+    <Body />
+  )
 }
-
 export default App;
+
+
